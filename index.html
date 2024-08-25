@@ -23,6 +23,8 @@
           theme: {
             extend: {
               colors: {
+                header1: 'rgb(255, 255, 255)',
+                header2: 'rgba(255, 255, 255, 0)',
                 btn_black1: 'rgb(28, 28, 28)',
                 btn_black2: 'rgb(30, 30, 30)',
                 btn_green1: 'rgb(171, 239, 95)',
@@ -39,7 +41,7 @@
 
 <body class="font-[manrope]">
     
-    <header class="container mx-auto bg-gradient-to-b from-[rgb(255, 255, 255)] to-[rgba(255, 255, 255, 0)]">
+    <header class="container mx-auto bg-gradient-to-b from-header1 to-header2">
         <nav>
           <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -243,7 +245,7 @@
                         The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charming and modern .
                       </p>
 
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 cursor-pointer">
                       <h3 class="font-extrabold">View Details</h3>
                       <i class="fa-solid fa-arrow-right bg-btn_green1 p-1 rounded-full -rotate-45"></i>
                     </div>
@@ -275,7 +277,7 @@
                         The barn house captivates with its blend of rustic charm and modern.
                       </p>
 
-                      <div class="flex items-center gap-2">
+                      <div class="flex items-center gap-2  cursor-pointer">
                         <h3 class="font-extrabold">View Details</h3>
                         <i class="fa-solid fa-arrow-right bg-btn_green1 p-1 rounded-full -rotate-45"></i>
                       </div>
@@ -298,7 +300,7 @@
         </section>
        
        <!-- form section title -->
-        <section class="p-10 bg-cover bg-no-repeat" style="background-image: url(./assets/bg.jpg);">
+        <section class="p-5 md:p-10 bg-cover bg-no-repeat" style="background-image: url(./assets/bg.jpg);">
           <div>
             <!-- section text -->
             <div class="flex flex-col items-center gap-2">
@@ -306,7 +308,7 @@
                 <i class="fa-solid fa-arrow-right"></i>
                 Let’s Connect</button>
 
-                <h2 class="font-extrabold">Let’s Discuss Next Project</h2>
+                <h2 class="font-extrabold text-xl md:text-4xl">Let’s Discuss Next Project</h2>
 
                 <p class="text-center">
                   The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden md:inline"> featuring weathered wood, sleek metal accents.
